@@ -9,7 +9,7 @@ var array = [1,2,3,5,8];
 var result = '\n';
 
 for (var i = 0; i < array.length; i++) {
-    for (var j = 1; j < 11; j++) {
+    for (var j = 1; j <= 10; j++) {
         result += (array[i]*j) + ' ';
     }
     result += '\n'
@@ -18,7 +18,7 @@ for (var i = 0; i < array.length; i++) {
 /**
 * Exercies2
 */
-
+/*
 var list = document.createElement('ul');
 for(var i = 1; i <= 10; i++) {
     var multiplication = document.createElement('li');
