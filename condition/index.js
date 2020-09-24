@@ -88,5 +88,7 @@ if(choice1 == 'warrior') {
 }
 
 /**
-* Exercies5
+* Exercies6
 */
+
+var ternaire = ternaire != undefined ? "cette variable n'existe pas" : 42;
